@@ -1,0 +1,44 @@
+* {
+  text-decoration: none;
+  list-style: none;
+  font-family: Roboto;
+}
+
+.heading-pink {
+  color: #EC008C;
+}
+
+.para-theme {
+  color: #7B7B7B;
+  font-size: 18px;
+}
+
+.heading-border::before {
+  content: "";
+  position: absolute;
+  width: 60px;
+  height: 3px;
+  background-color: #EC008C;
+  bottom: 0;
+}
+.heading-center-border::before{
+  content: "";
+  position: absolute;
+  width: 60px;
+  height: 3px;
+  background-color: #EC008C;
+  bottom: 0;
+  right: 46%;
+}
+
+.s-num {
+  width: 40px;
+  height: 40px;
+  background-color: #3d9bda4b;
+  border-radius: 50%;
+  font-size: 25px;
+}
+
+.s-card{
+  background: #0076C2;
+}

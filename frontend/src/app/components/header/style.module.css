@@ -1,0 +1,22 @@
+.logo img {
+    width: 137.904px;
+    height: 63px;
+    flex-shrink: 0;
+}
+.tag {
+    text-decoration: none;
+    color: #6C6C6C;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.active{
+    color: #0675BC;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
