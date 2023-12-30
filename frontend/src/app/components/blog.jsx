@@ -33,7 +33,7 @@ const blog = () => {
                         blogCard && blogCard.map((item, index) => {
                             return (
                                 <div class="col-4 " style={{ boxShadow: "0px 0px 25px rgba(0, 0, 0, 0.06)" }} >
-                                    <div className="card rounded-0 ">
+                                    <div className="card rounded-0 border-0  ">
                                         <img src={item.img} alt="..." className='p-3' />
                                         <div class="card-body">
                                             <h5 class="card-title text-primary" style={{ fontSize: "24px" }}>{item.heading}</h5>

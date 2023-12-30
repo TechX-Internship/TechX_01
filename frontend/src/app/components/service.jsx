@@ -10,7 +10,7 @@ const service = () => {
                         <p className='para-theme '>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Contrary to popular belief, Lorem Ipsum is not simply</p>
                     </div>
                 </div>
-                <div className="service-card d-flex ">
+                <div className="service-card d-flex col-12 ">
                     <div className="col-3 s-card py-3 px-4 position-relative ">
                         <div className="service_heading d-flex align-items-center mb-3   ">
                             <span className='s-num d-flex justify-content-center align-items-center text-white' >1</span>

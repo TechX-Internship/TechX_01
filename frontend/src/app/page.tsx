@@ -9,6 +9,8 @@ import Demo from '../app/components/demo'
 import Blog from '../app/components/blog'
 import Facility from '../app/components/facility'
 import Team from '../app/components/team'
+import Team2 from '../app/components/team2'
+import Faq from '../app/components/faq'
 
 
 const rubik = Rubik ({
@@ -29,6 +31,8 @@ export default function Home() {
       <Blog/>
       <Facility/>
       <Team/>
+      <Team2/>
+      <Faq/>
     </>
 
   )
