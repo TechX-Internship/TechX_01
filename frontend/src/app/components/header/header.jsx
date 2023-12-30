@@ -10,7 +10,7 @@ const header = () => {
                     <img src='/logo.png' alt="" />
                 </div>
                 <div className="menu">
-                    <ul className='d-flex justify-content-between align-items-center mb-0 gap-4 '>
+                    <ul className='d-flex justify-content-between align-items-center mb-0 gap-4 list-unstyled  '>
                         <li><a href="" className={`${style.tag} ${style.active} fw-bold `}>Home</a></li>
                         <li><a href="" className={`${style.tag} fw-lighter `}>About Us</a></li>
                         <li><a href="" className={`${style.tag} fw-lighter `}>Services</a></li>
@@ -22,7 +22,7 @@ const header = () => {
                     </ul>
                 </div>
                 <div className=''>
-                    <Button/>
+                    <Button title='Book Appointment'/>
                 </div>
             </div>
         </div>
