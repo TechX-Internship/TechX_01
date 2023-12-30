@@ -12,7 +12,7 @@ const faq = () => {
           style={{ fontSize: "40px" }}
           className="mb-3 heading-pink heading-border position-relative lh-base "
         >
-          Our Blogs
+          FAQ
         </h1>
         <p className="para-theme ">
           Lorem Ipsum is simply dummy text of the printing and typesetting

@@ -13,7 +13,7 @@ const page = () => {
                 style={{ fontSize: "40px" }}
                 className="mb-3 heading-pink heading-border position-relative lh-base "
               >
-                About Us
+                Our Team
               </h1>
             </div>
             <div className="col-6 text-end ">
