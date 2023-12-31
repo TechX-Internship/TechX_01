@@ -11,6 +11,8 @@ import Facility from '../app/components/facility'
 import Team from '../app/components/team'
 import Team2 from '../app/components/team2'
 import Faq from '../app/components/faq'
+import Media from '../app/components//media'
+import Contact from '../app/components/contact'
 
 
 const rubik = Rubik ({
@@ -32,7 +34,9 @@ export default function Home() {
       <Facility/>
       <Team/>
       <Team2/>
+      <Media/>
       <Faq/>
+      <Contact/>
     </>
 
   )

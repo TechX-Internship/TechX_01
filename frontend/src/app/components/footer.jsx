@@ -2,7 +2,8 @@ import React from 'react'
 
 const footer = () => {
     return (
-        <section className=' footer  pt-5 pb-3'>
+        <section className=' footer  pt-5 pb-3 position-relative '>
+            <img src="/footerimg.png" alt="" className='img-fluid position-absolute end-0 bottom-0' />
             <div className="container  ">
                 <div className="col-12 d-flex">
                     <div className="col-3">
@@ -23,7 +24,7 @@ const footer = () => {
                     </div>
                     <div className="col-3">
                         <h4 className='text-white'>QUICK LINKS</h4>
-                        <ul className='para-theme lh-lg ' style={{fontSize:'16px'}}>
+                        <ul className='para-theme lh-lg ' style={{ fontSize: '16px' }}>
                             <li>ABOUT US</li>
                             <li>MD’S MESSAGE</li>
                             <li>FACILITIES</li>
@@ -56,7 +57,7 @@ const footer = () => {
                 </div>
             </div>
             <div>
-                <p className='para-theme text-center pt-2' style={{fontSize:'16px',borderTop:"2px solid #353535"}} >Copyright ©2023 All Rights Reserved Nidhi Healthcare Ltd.</p>
+                <p className='para-theme text-center pt-2' style={{ fontSize: '16px', borderTop: "2px solid #353535" }} >Copyright ©2023 All Rights Reserved Nidhi Healthcare Ltd.</p>
             </div>
         </section>
     )

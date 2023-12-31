@@ -5,7 +5,7 @@
 }
 .tag {
     text-decoration: none;
-    color: #6C6C6C;
+    color: #6C6C6C ;
     font-family: Roboto;
     font-size: 18px;
     font-style: normal;
@@ -13,7 +13,7 @@
     line-height: normal;
 }
 .active{
-    color: #0675BC;
+    color: #0675BC !important;
     font-family: Roboto;
     font-size: 18px;
     font-style: normal;
